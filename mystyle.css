@@ -1,0 +1,66 @@
+
+.botones{
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 1fr ;
+}
+
+.boton1{
+	background-color: rgb(194, 222, 209);
+	border: 5px outset rgb(250, 246, 233);
+	cursor: pointer;
+}
+
+
+.tituloPrincipal{
+	text-align: center;
+	background-color: rgb(205, 194, 174);
+	border: 6px outset rgb(250, 246, 233);
+
+}
+
+.galeria{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	align-items: center;
+}
+
+
+.imgG{
+	display: block;
+	border: 5px outset rgb(205, 194, 174);
+	width: 200px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.bigImg{
+	display: block;
+	border: 5px outset rgb(205, 194, 174);
+	width: 300px;
+	height: 310px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+button{
+	background-color: rgb(194, 222, 209);
+	border: 5px outset rgb(250, 246, 233);
+	cursor: pointer;
+}
+
+h1{
+	color: rgb(53, 66, 89);
+	text-align: center;
+}
+
+h4{
+	color: rgb(53, 66, 89);
+	font-style: italic;
+	text-align: center;
+}
+
+body{
+	background-color: rgb(236, 229, 199);
+
+}

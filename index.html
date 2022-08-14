@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<title>Manuel Paredes</title>
+</head>
+
+<body>
+
+	<div class="tituloPrincipal">
+
+		<h1>BLOG PERSONAL</h1>
+		<h4>Manuel Felipe Paredes Sanchez</h4>
+
+		<div class="botones">
+
+			<div class="espacio"> </div>
+			<div class="boton1"><a href="pasado.html">Pasado</a></div>
+			<div class="espacio"> </div>
+			<div class="boton1"><a href="presente.html">Presente</a></div>
+			<div class="espacio"> </div>
+			<div class="boton1"><a href="futuro.html">Futuro</a></div>
+			<div class="espacio"> </div>
+			<br>
+
+		</div>
+	</div>
+
+	<h4>Hola!</h4>	
+	<p>Este es mi blog de presentación personal, en el cual podras encontrar mi experiencia pasada, mi situación actual y mi proyección a futuro.</p>
+	<img src="images/Yo.jpeg" class="bigImg">
+
+
+	<hr>
+	<h3>¡Nos gustaria saber quien nos visita!</h3>
+	<p>Por favor digita tu nombre completo:<input type="text" name="nombreInv" id="Ninv"></p>
+	<button onclick="alertaNm()">Aceptar</button>
+	<h4>&nbsp;<output id="OutNm"></output></h4>
+	<hr>
+
+</body>
+
+<script type="text/javascript">
+
+	function alertaNm() {
+		var nombreCompleto = document.getElementById("Ninv").value
+		alert("¡Bienvenido"+" "+nombreCompleto+"!")
+		document.getElementById("OutNm").innerHTML= "Visitante: "+nombreCompleto
+		}
+
+</script>
+
+</html>
